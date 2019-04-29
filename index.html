@@ -1,0 +1,58 @@
+<?php 
+$component_namespace = "accordion";
+$component_title = "Accordion";
+?>
+<script src="/admp-common-elements/common-elements-aem-parent/ui.apps/src/main/content/jcr_root/apps/common-elements/v1/components/content/accordion/ui/accordion.js"></script>
+
+<div class="abbv-accordion" data-icon-open="abbv-icon-add_circle" data-icon-closed="abbv-icon-remove_circle" >
+    <div class="abbv-accordion-container">
+        <a id="accordion1"></a>
+        <div class="abbv-accordion-blade abbv-accordion-blade-01" >
+            <div class="abbv-accordion-blade-content">
+                <div class="abbv-accordion-blade-image">
+                    <img src="<?php echo $base_url_dependencies ?>images/image-text-small.jpg"/>
+                </div>
+                <div class="abbv-accordion-blade-text">Item #1</div>
+            </div>
+            <div class="abbv-accordion-blade-icon"><i class="abbv-icon-add_circle i-a"></i></div>
+            <div class="abbv-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim vitae mi sed rhoncus. Aenean mollis sem elit, sed pharetra nunc vestibulum non. Vestibulum in mauris quis leo malesuada tincidunt. Nunc eu posuere mauris.</p>
+            <p>Curabitur sit amet mollis felis, id volutpat lectus. Nunc vel sem sit amet turpis consequat mattis. Cras finibus, arcu quis porttitor dapibus, metus risus pharetra sapien, eget dignissim lectus nulla ut dolor. Sed tortor ligula, dapibus quis orci eget, gravida vehicula velit. Vestibulum ut nibh pretium, commodo magna eget, sagittis elit. Praesent a ornare eros.</p>
+            <p><a href="http://www.abbvie.com/">A link to AbbVie.com</a></p>
+            </div>
+        </div>
+        <a id="accordion2" data-trigger-for= "abbv-accordion-blade-02"></a>
+        <div class="abbv-accordion-blade abbv-accordion-blade-02" >
+            <div class="abbv-accordion-blade-content">
+                <div class="abbv-accordion-blade-text abbv-icon-person_add i-b">Item #2</div>
+            </div>
+            <div class="abbv-accordion-blade-icon"><i class="abbv-icon-add_circle i-a"></i></div>
+            <div class="abbv-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim vitae mi sed rhoncus. Aenean mollis sem elit, sed pharetra nunc vestibulum non. Vestibulum in mauris quis leo malesuada tincidunt. Nunc eu posuere mauris.</p>
+            <p>Image + Text is available</p>
+            <img src="<?php echo $base_url_dependencies ?>images/background-container-image-large.jpg">
+            </div>
+        </div>
+        <a id="accordion3"></a>
+        <div class="abbv-accordion-blade abbv-accordion-blade-03" >
+            <div class="abbv-accordion-blade-content">
+                <div class="abbv-accordion-blade-text">Item #3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim vitae mi sed rhoncus. Aenean mollis sem elit, sed pharetra nunc vestibulum non. Vestibulum in mauris quis leo malesuada tincidunt. Nunc eu posuere mauris.</div>
+            </div>
+            <div class="abbv-accordion-blade-icon"><i class="abbv-icon-add_circle i-a"></i></div>
+            <div class="abbv-accordion-content">
+            One line of content.
+                
+            </div>
+        </div>
+        <a id="accordion4"></a>
+        <div class="abbv-accordion-blade abbv-accordion-blade-04">
+            <div class="abbv-accordion-blade-content">
+                <div class="abbv-accordion-blade-text">Item #4.</div>
+            </div>
+            <div class="abbv-accordion-blade-icon"><i class="abbv-icon-add_circle i-a"></i></div>
+            <div class="abbv-accordion-content">
+            One line of content.
+            </div>
+        </div>
+    </div>
+</div>
